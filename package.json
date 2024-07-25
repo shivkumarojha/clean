@@ -4,8 +4,15 @@
   "description": "Clean default React and Next js files",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b"
+  },
+  "bin": {
+    "rclean": "./dist/commands/rclean.js",
+    "nclean": "./dist/commands/nclean.js"
   },
   "author": "Shiv kumar Ojha",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
 }
