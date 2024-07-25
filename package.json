@@ -1,5 +1,5 @@
 {
-  "name": "clean",
+  "name": "rnclean",
   "version": "1.0.0",
   "description": "Clean default React and Next js files",
   "main": "index.ts",
@@ -12,7 +12,8 @@
   },
   "author": "Shiv kumar Ojha",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.14.12"
+  "dependencies": {
+    "@shivkumarojha/clean": "^1.0.0",
+    "rnclean": "^1.0.0"
   }
 }
